@@ -36,8 +36,9 @@ const sideroutes=[
         
 ]
     return ( 
-        <div className="md:px-10 px-4 bg-black text-yellow-500 border-b border-yellow-600">
-        <div className="flex items-center justify-between space-x-4 pl-4 py-2">
+        <div className="md:px-0 px-4 bg-black text-yellow-500 border-b border-yellow-600 mb-20 ">
+        <div className="flex items-center justify-between space-x-4 bg-black p-8 py-2
+            fixed z-50 w-full mx-auto">
         {/* LOGO */}
         <Link href='/' className="flex space-x-2 items-center hover:text-gray-400 flex-1">
             <Image src= '/logo.png' height={60} width={50} className="object-cover" alt="logo" />
