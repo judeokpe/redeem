@@ -98,7 +98,7 @@ const SignUp = () => {
       </Form>
       <p className="text-gray-500 mt-4 flex items-center" >Already have an account? <Link  href={'/sign-in'} className="underline flex items-center mr-2 ml-2">Sign In<ArrowBigRight /></Link></p>
       <div className="mt-2">
-        <p className="mb-2 text-center">Or Sign with google</p>
+        <p className="mb-2 text-center">Or <br/> Sign with google</p>
         <Button className="w-full ring text-xl" variant={'ghost'}>
             <BsGoogle color="red" size={24} className=" mr-4"/>
             Google

@@ -42,7 +42,8 @@ const sideroutes=[
             ">
                 {/* LOGO */}
                 <Link href='/' className="flex space-x-2 items-center hover:text-gray-400 flex-1">
-                    <Image src= '/logo.png' height={60} width={50} className="object-cover" alt="logo" />
+                    <Image src= '/logo.png' height={60} width={50} className="object-cover hidden md:block" alt="logo" />
+                    <Image src= '/logo.png' height={30} width={28} className="object-cover md:hidden block" alt="logo" />
                     <h3 className="hidden md:block font-bold  text-3xl ">RCCG</h3>
                 </Link>
                 {/* SOACIAL ICONS */}
@@ -106,14 +107,14 @@ const sideroutes=[
                 </div>
             </div>
             {/* WELCOME */}
-            <div className="p-[150px] w-full hidden md:block text-white ">
+            <div className="md:p-[150px] mt-20 w-full  md:block text-white ">
               
            
-        <div className="bg-black p-4 opacity-90 text-center">
-            <div className="text-3xl uppercase text-yellow-500">
+        <div className="bg-black p-4 md:h-[200px] opacity-90 text-center flex flex-col items-center justify-center">
+            <div className="md:text-3xl text-sm uppercase text-yellow-500">
             <TypeAnimation 
         sequence={[
-          "Welcome to Redeem Church!",
+          "Welcome to Redeem Church!", 
           2000,
           "A place to connect with God and one another.",
           2000
